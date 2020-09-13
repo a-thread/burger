@@ -2,9 +2,9 @@
 # Eat-Da-Burger 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-[Eat-Da-Burger](link to come!)
 
 [Start Screen for Program](./assets/images/demo.png)
+##### Link to Deployed Application: (link to come!)
     
 ## Description
 Here is where my description will go.
