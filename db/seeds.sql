@@ -1,8 +1,8 @@
 INSERT INTO
     burgers(burger_name, devoured)
 VALUES
-    ("BLACK BUN FRIED FROG BURGER", FALSE),
-    ("The Cronut Burger", FALSE),
-    ("BRAILLE BURGER", FALSE),
-    ("QUADRUPPLE BYPASS BURGER", FALSE),
-    ("Yorkie Pud Burger", FALSE)
+    ("Gourdon-Hamsey", FALSE),
+    ("The Silentil Night", FALSE),
+    ("Poutine on the Ritz", FALSE),
+    ("Poblano Picasso", FALSE),
+    ("Eggers Can't Be Cheesers", FALSE)
