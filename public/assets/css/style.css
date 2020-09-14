@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "bobsBurgers";
+    src: url("./fonts/Bob\'s\ Burgers.ttf");
+}
+
+@font-face {
+    font-family: "bobsBurgers2";
+    src: url("./fonts/Bob\'s\ Burgers\ 2.ttf");
+}
+
+body {
+    background-image: url('https://wallpapermemory.com/uploads/597/bob-s-burgers-background-full-hd-1080p-156375.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "bobsBurgers";
+    font-size: 100px;
+    padding-top: 20px;
+    max-width: 100rem;
+    text-align: center;
+}
+
+div.burger-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.burger-board1, div.burger-board2 {
+    max-width: 30rem;
+}
+
+div.burger-board1 {
+    order: 2;
+}
+
+div.burger-board2 {
+    order: 3;
+}
+
+h3.board-title {
+    font-family: "bobsBurgers2";
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+label {
+    font-family: 'Ranchers', cursive;
+    font-size: 30px;
+}
+
+div.form-card {
+    align-self: center;
+    text-align: center;
+    box-shadow: inset;
+    order: 1;
+}
+
+form.form-group {
+    max-width: 17rem;
+    align-self: center;
+    padding: 10px 30px 0 30px;
+}
+
+button.brgr-btn {
+    margin-top: 10px;
+    background-color: #F0262A;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    div.burger-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.burger-board1, div.burger-board2 {
+        max-width: 80%;
+        max-height: fit-content;
+        margin: 20px;
+    }
+}

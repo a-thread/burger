@@ -1,0 +1,46 @@
+    <header>
+        <div class="title">
+            <h1 class="title-text">Eat-Da-Burger</h1>
+        </div>
+    </header>
+
+    <div class="burger-cards">
+
+        <div class="card burger-board1 shadow">
+            <div class="card-title">
+                <h3 class="board-title">Burgers to Eat</h3>
+            </div>
+            <div class="card-body">
+                <ul>
+                    {{#each burger}}
+                    {{#unless devoured}}
+                    {{> burger-block devoured=false}}
+                    {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+        <div class="card form-card shadow">
+            <form class="form-group burger-form">
+                <label for="forANewBurger">Add a Burger!</label>
+                <input type="burger" class="form-control" id="burgerId" aria-describedby="AddABurger">
+                <button type="submit" class="btn brgr-btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="card burger-board2 shadow">
+            <div class="card-title">
+                <h3 class="board-title">Already Sampled</h3>
+            </div>
+            <div class="card-body">
+                <ul>
+                    {{#each burgery}}
+                    {{#if devoured}}
+                    {{> burger-block devoured=true}}
+                    {{/if}}
+                    {{/each}}
+                </ul>
+            </div>
+
+        </div>
