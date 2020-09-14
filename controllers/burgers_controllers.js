@@ -2,15 +2,15 @@ var express = require("express");
 
 var router = express.Router();
 
-var burger = require("../models/burger");
+var burger = require("../models/burger.js");
 
 router.get("/", function (req, res) {
     burger.all(function (data) {
-        var brgrObj = {
+        var hbsObj = {
             burgers: data
         };
-        console.log(brgrObj);
-        res.render("index", brgrObj);
+        console.log(hbsObj);
+        res.render("index", hbsObj);
     });
 });
 
