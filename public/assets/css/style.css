@@ -37,7 +37,7 @@ div.burger-board1, div.burger-board2 {
 }
 
 div.burger-board1 {
-    order: 2;
+    order: 1;
 }
 
 div.burger-board2 {
@@ -60,7 +60,7 @@ div.form-card {
     align-self: center;
     text-align: center;
     box-shadow: inset;
-    order: 1;
+    order: 2;
 }
 
 form.form-group {
@@ -84,5 +84,11 @@ button.brgr-btn {
         max-width: 80%;
         max-height: fit-content;
         margin: 20px;
+    }
+    div.form-card {
+        order: 1;
+    }
+    div.burger-board1 {
+        order: 2;
     }
 }
