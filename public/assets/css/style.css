@@ -12,10 +12,6 @@ body {
     background-image: url('https://wallpapermemory.com/uploads/597/bob-s-burgers-background-full-hd-1080p-156375.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
 }
 
 h1 {
@@ -32,15 +28,15 @@ div.burger-cards {
     justify-content: space-around;
 }
 
-div.burger-board1, div.burger-board2 {
-    max-width: 30rem;
+div.burger-board {
+    width: 30rem;
 }
 
-div.burger-board1 {
+div.fresh {
     order: 1;
 }
 
-div.burger-board2 {
+div.sampled {
     order: 3;
 }
 
@@ -51,9 +47,13 @@ h3.board-title {
     padding-top: 15px;
 }
 
-label {
+label, p.burger-name {
     font-family: 'Ranchers', cursive;
     font-size: 30px;
+}
+
+p.burger-name {
+    font-size: 24px;
 }
 
 div.form-card {
@@ -69,19 +69,33 @@ form.form-group {
     padding: 10px 30px 0 30px;
 }
 
-button.brgr-btn {
+div.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button.btn {
     margin-top: 10px;
+    max-height: 3rem;
+}
+
+button.brgr-btn, button.delete-burger {
     background-color: #F0262A;
     color: white;
 }
 
-@media (max-width: 700px) {
+button.eat-burger {
+    background-color: #FCDD60;
+}
+
+@media (max-width: 1000px) {
     div.burger-cards {
         flex-direction: column;
         align-items: center;
     }
     div.burger-board1, div.burger-board2 {
-        max-width: 80%;
+        min-width: 80%;
         max-height: fit-content;
         margin: 20px;
     }
