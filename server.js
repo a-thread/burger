@@ -1,4 +1,3 @@
-require('dotenv').config();
 var express = require("express");
 
 var PORT = process.env.PORT || 8080;
@@ -14,7 +13,6 @@ app.use(express.json());
 
 // Set Handlebars
 var exphbs = require("express-handlebars");
-
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
