@@ -6,3 +6,7 @@ VALUES
     ("Poutine on the Ritz", FALSE),
     ("Poblano Picasso", FALSE),
     ("Eggers Can't Be Cheesers", FALSE)
+    ("New Bacon-ings", true)
+    ("The Foot Feta-ish", true)
+    ("Rest in Peas", true)
+    ("Fig-eta Bout It", true)
