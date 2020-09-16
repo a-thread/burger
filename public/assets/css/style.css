@@ -17,7 +17,8 @@ body {
 h1 {
     font-family: "bobsBurgers";
     font-size: 100px;
-    padding-top: 20px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     max-width: 100rem;
     text-align: center;
 }
@@ -25,6 +26,7 @@ h1 {
 div.burger-cards {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
@@ -57,7 +59,6 @@ p.burger-name {
 }
 
 div.form-card {
-    align-self: center;
     text-align: center;
     box-shadow: inset;
     order: 2;
@@ -65,7 +66,6 @@ div.form-card {
 
 form.form-group {
     max-width: 17rem;
-    align-self: center;
     padding: 10px 30px 0 30px;
 }
 
@@ -76,12 +76,17 @@ div.button-row {
 }
 
 button.btn-sm {
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 1px;
     margin-top: 10px;
     max-height: 3rem;
-    width: 4rem;
+    min-width: 4rem;
+    max-width: 6rem;
 }
 
 button.brgr-btn, button.delete-burger {
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 1px;
     background-color: #F0262A;
     color: white;
 }
@@ -94,10 +99,15 @@ button.eat-burger {
     background-color: #FCDD60;
 }
 
+nav.navbar {
+    max-height: 2.5rem;
+}
+
 @media (max-width: 1000px) {
     div.burger-cards {
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
     }
     div.burger-board1, div.burger-board2 {
         min-width: 80%;
@@ -106,8 +116,13 @@ button.eat-burger {
     }
     div.form-card {
         order: 1;
+        margin-bottom: 2rem;
     }
     div.fresh {
         order: 2;
+        margin-bottom: 2rem;
+    }
+    div.sampled {
+        margin-bottom: 4rem;
     }
 }
