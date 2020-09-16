@@ -44,9 +44,9 @@ Fee free to add new burger specials, try out any that catch your eye and if you 
 
 ### Technologies Used
 - NodeJs
+- Handlebars
 - ExpressJs
 - MySQL & MySQL2
-- Express Handlebars
 
 #### Sources
 - ["Bob's Burgers Font" by Jade Garrow](https://www.urbanfonts.com/fonts/Bob_s_Burgers.font)
