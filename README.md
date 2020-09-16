@@ -1,50 +1,54 @@
 
-# Eat-Da-Burger 
+# Eat-Ma-Burgers
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 
-[Start Screen for Program](./assets/images/demo.png)
-##### Link to Deployed Application: (link to come!)
+![Start Screen for Program](./public/assets/img/front-page.png)
+
+##### Deployed Link: [Check it out on Heroku!](https://eat-ma-burgers.herokuapp.com/)
     
 ## Description
-Here is where my description will go.
+***Eat-Da-Burger!*** is a restaurant app that lets users input the names of burgers they'd like to eat. When the user inputs a burger name, it is displayed on the left side, under "Burgers to Eat" with buttons enabling the user to `Try it!` or `Delete` it if they don't like it. When the user clicks `Try it!` the burger is moved to the right side, under "Already Sampled." 
 
 ---
 
 #### Table of Contents
 - [Description](#description)
 - [User Story](#user)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Demo](#demo)
 - [Technologies Used](#technologies)
+- [Source](#sources)
 - [License](#license)
-- [Contributing](#contributing)
 - [Questions](#questions)
 
 ---
 
 ### User Story
-AS A USER...
 
-### Installation
-Install steps with ``` code ``` go here.
+```
+AS A USER, I want to be able to add, save and try out burger ideas
+
+I WANT to be able to be able delete the burgers that I've written
+
+SO THAT I can keep coming up with fresh burger specials!
+```
 
 ### Usage
-Here are your instructions for use.
+Fee free to add new burger specials, try out any that catch your eye and if you create something you don't love, don't worry, you can delete it!
 
-### Tests
-N/A
 
 ### Demo 
 *Demo to come!*
 
 ### Technologies Used
-- Technologies to be filled in later.
+- NodeJs
+- ExpressJs
+- MySQL & MySQL2
+- Express Handlebars
 
-### Contributing
-If you'd like to contribute to this application, feel free to submit a pull request.
+#### Sources
+- ["Bob's Burgers Font" by Jade Garrow](https://www.urbanfonts.com/fonts/Bob_s_Burgers.font)
 
 #### License
 This project is licensed under MIT. 
