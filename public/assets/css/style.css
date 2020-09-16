@@ -87,16 +87,10 @@ button.btn-sm {
 button.brgr-btn, button.delete-burger {
     font-family: 'Ranchers', cursive;
     letter-spacing: 1px;
-    background-color: #F0262A;
-    color: white;
 }
 
 button.brgr-btn {
     margin-top: 10px;
-}
-
-button.eat-burger {
-    background-color: #FCDD60;
 }
 
 nav.navbar {
