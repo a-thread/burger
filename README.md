@@ -7,7 +7,7 @@
     
 ## Description
 
-***Eat-Ma-Burgers!*** is a restaurant app that lets users input the names of burgers they'd like to eat. When the user inputs a burger name, it is displayed on the left side, under "Burgers to Eat" with buttons enabling the user to `Try it!` or `Delete` it if they don't like it. When the user clicks `Try it!` the burger is moved to the right side, under "Already Sampled." 
+***Eat-Ma-Burgers*** is a restaurant app that lets users input the names of burgers they'd like to eat. When the user inputs a burger name, it is displayed on the left side, under "Burgers to Eat" with buttons enabling the user to `Try it!` or `Delete` it if they don't like it. When the user clicks `Try it!` the burger is moved to the right side, under "Already Sampled." 
 
 ##### Deployed Link: [Check it out on Heroku!](https://eat-ma-burgers.herokuapp.com/)
 
