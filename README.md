@@ -11,19 +11,6 @@
 
 #### Deployed Link: [Check it out on Heroku!](https://eat-ma-burgers.herokuapp.com/)
 
----
-
-#### Table of Contents
-- [Description](#description)
-- [User Story](#user)
-- [Usage](#usage)
-- [Demo](#demo)
-- [Technologies Used](#technologies)
-- [Source](#source)
-- [License](#license)
-- [Questions](#questions)
-
----
 
 ### User Story
 
@@ -35,18 +22,16 @@ I WANT to be able to be able delete the burgers that I've written
 SO THAT I can keep coming up with fresh burger specials!
 ```
 
-### Usage
-Fee free to add new burger specials, try out any that catch your eye and if you create something you don't love, don't worry, you can delete it!
-
 
 ### Demo 
-*Demo to come!*
+![Demo of app in use](./public/assets/img/demo.gif)
 
 ### Technologies Used
-- NodeJs
-- Handlebars
-- Express
-- MySQL
+- Node.js
+- Express.js
+- Express Handlebars
+- MySQL2
+- Postman
 
 #### Source
 - ["Bob's Burgers Font" by Jade Garrow](https://www.urbanfonts.com/fonts/Bob_s_Burgers.font)
