@@ -75,14 +75,19 @@ div.button-row {
     justify-content: space-between;
 }
 
-button.btn {
+button.btn-sm {
     margin-top: 10px;
     max-height: 3rem;
+    width: 4rem;
 }
 
 button.brgr-btn, button.delete-burger {
     background-color: #F0262A;
     color: white;
+}
+
+button.brgr-btn {
+    margin-top: 10px;
 }
 
 button.eat-burger {
@@ -102,7 +107,7 @@ button.eat-burger {
     div.form-card {
         order: 1;
     }
-    div.burger-board1 {
+    div.fresh {
         order: 2;
     }
 }
