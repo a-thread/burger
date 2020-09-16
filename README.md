@@ -9,7 +9,7 @@
 
 ***Eat-Ma-Burgers*** is a restaurant app that lets users input the names of burgers they'd like to eat. When the user inputs a burger name, it is displayed on the left side, under "Burgers to Eat" with buttons enabling the user to `Try it!` or `Delete` it if they don't like it. When the user clicks `Try it!` the burger is moved to the right side, under "Already Sampled." 
 
-##### Deployed Link: [Check it out on Heroku!](https://eat-ma-burgers.herokuapp.com/)
+#### Deployed Link: [Check it out on Heroku!](https://eat-ma-burgers.herokuapp.com/)
 
 ---
 
@@ -19,7 +19,7 @@
 - [Usage](#usage)
 - [Demo](#demo)
 - [Technologies Used](#technologies)
-- [Source](#sources)
+- [Source](#source)
 - [License](#license)
 - [Questions](#questions)
 
@@ -45,10 +45,10 @@ Fee free to add new burger specials, try out any that catch your eye and if you 
 ### Technologies Used
 - NodeJs
 - Handlebars
-- ExpressJs
-- MySQL & MySQL2
+- Express
+- MySQL
 
-#### Sources
+#### Source
 - ["Bob's Burgers Font" by Jade Garrow](https://www.urbanfonts.com/fonts/Bob_s_Burgers.font)
 
 #### License
