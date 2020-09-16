@@ -4,6 +4,7 @@
   "description": "A burger logger made with MySQL, Node, Express, Handlebars and a DAL.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
