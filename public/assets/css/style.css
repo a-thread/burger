@@ -103,7 +103,7 @@ nav.navbar {
         align-items: center;
         justify-content: space-between;
     }
-    div.burger-board1, div.burger-board2 {
+    div.burger-board {
         min-width: 80%;
         max-height: fit-content;
         margin: 20px;
