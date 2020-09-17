@@ -1,39 +1,21 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function () {
   $(".eat-burger").on("click", function (event) {
-    var id = $(this).data("id");
-    var status = $(this).data("status");
+    let id = $(this).data("id");
+    let status = $(this).data("status");
 
-    if (status === false) {
-
-      let newStatus = {
-        devoured: true
-      };
-
-      $.ajax("/api/burgers/" + id, {
-        type: "PUT",
-        data: newStatus
-      }).then(
-        function () {
-          location.reload();
-        }
-      );
-    } else {
-
-      let newStatus = {
-        devoured: false
-      };
-
-      $.ajax("/api/burgers/" + id, {
-        type: "PUT",
-        data: newStatus
-      }).then(
-        function () {
-          location.reload();
-        }
-      );
+    let newStatus = {
+      devoured: !!!status
     }
 
+    $.ajax("/api/burgers/" + id, {
+      type: "PUT",
+      data: newStatus
+    }).then(
+      function () {
+        location.reload();
+      }
+    )
   });
 
   $(".brgr-btn").on("click", function (event) {
