@@ -9,8 +9,10 @@
 
     {{!-- Burgers to Eat Card --}}
     <div class="card burger-board fresh shadow">
-        <div class="card-body">
+        <div class="card-title">
             <h3 class="board-title">Burgers to Eat</h3>
+        </div>
+        <div class="card-body">
             <ul>
                 {{#each burgers}}
                 {{#unless devoured}}
@@ -25,15 +27,17 @@
     <div class="card form-card shadow">
         <form class="form-group new-burger">
             <label for="forANewBurger">Add a Burger!</label>
-            <input type="burger" class="form-control" id="burgerId" aria-describedby="AddABurger">
+            <input type="text" name="burger-name" class="form-control" id="burgerId">
             <button type="submit" class="btn brgr-btn btn-outline-danger" value="0">Submit</button>
         </form>
     </div>
 
     {{!-- Already Sampled Card --}}
     <div class="card burger-board sampled shadow">
-        <div class="card-body">
+        <div class="card-title">
             <h3 class="board-title">Already Sampled</h3>
+        </div>
+        <div class="card-body">
             <ul>
                 {{#each burgers}}
                 {{#if devoured}}
