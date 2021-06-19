@@ -13,7 +13,7 @@ body, html {
 }
 
 body {
-    background-image: url('https://wallpapermemory.com/uploads/597/bob-s-burgers-background-full-hd-1080p-156375.jpg');
+    background-image: url('./burger-wallpaper.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
