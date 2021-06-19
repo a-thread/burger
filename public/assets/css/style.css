@@ -34,7 +34,7 @@ div.burger-cards {
 }
 
 div.burger-board {
-    width: 30rem;
+    max-width: 30rem;
 }
 
 div.fresh {
