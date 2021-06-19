@@ -34,7 +34,7 @@ div.burger-cards {
 }
 
 div.burger-board {
-    max-width: 30rem;
+    width: 30rem;
 }
 
 div.fresh {
@@ -101,6 +101,9 @@ nav.navbar {
 }
 
 @media (max-width: 1000px) {
+    div.burger-board {
+        max-width: 30rem;
+    }
     div.burger-cards {
         flex-direction: column;
         align-items: center;
